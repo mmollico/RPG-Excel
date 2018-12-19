@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="2" height="2" tilewidth="32" tileheight="32" infinite="0" nextlayerid="36" nextobjectid="1">
+ <tileset firstgid="1" name="BODY_skeleton" tilewidth="32" tileheight="32" tilecount="112" columns="14">
+  <image source="../../../../../../../../../../Downloads/lpc_entry/lpc_entry/png/spellcast/BODY_skeleton.png" width="448" height="256"/>
+ </tileset>
+ <tileset firstgid="113" name="HEAD_chain_armor_hood" tilewidth="32" tileheight="32" tilecount="112" columns="14">
+  <image source="../../../../../../../../../../Downloads/lpc_entry/lpc_entry/png/spellcast/HEAD_chain_armor_hood.png" width="448" height="256"/>
+ </tileset>
+ <tileset firstgid="225" name="LEGS_plate_armor_pants" tilewidth="32" tileheight="32" tilecount="112" columns="14">
+  <image source="../../../../../../../../../../Downloads/lpc_entry/lpc_entry/png/spellcast/LEGS_plate_armor_pants.png" width="448" height="256"/>
+ </tileset>
+ <tileset firstgid="337" name="TORSO_plate_armor_arms_shoulders" tilewidth="32" tileheight="32" tilecount="112" columns="14">
+  <image source="../../../../../../../../../../Downloads/lpc_entry/lpc_entry/png/spellcast/TORSO_plate_armor_arms_shoulders.png" width="448" height="256"/>
+ </tileset>
+ <tileset firstgid="449" name="TORSO_plate_armor_torso" tilewidth="32" tileheight="32" tilecount="112" columns="14">
+  <image source="../../../../../../../../../../Downloads/lpc_entry/lpc_entry/png/spellcast/TORSO_plate_armor_torso.png" width="448" height="256"/>
+ </tileset>
+ <group id="8" name="BackFace" visible="0">
+  <layer id="2" name="Base Skeleton" width="2" height="2">
+   <data encoding="csv">
+3,4,
+17,18
+</data>
+  </layer>
+  <layer id="4" name="Helmet" width="2" height="2">
+   <data encoding="csv">
+113,114,
+127,128
+</data>
+  </layer>
+  <layer id="5" name="Legs" width="2" height="2">
+   <data encoding="csv">
+225,226,
+239,240
+</data>
+  </layer>
+  <layer id="6" name="Arm Plates" width="2" height="2">
+   <data encoding="csv">
+337,338,
+351,352
+</data>
+  </layer>
+  <layer id="7" name="Torso Plates" width="2" height="2">
+   <data encoding="csv">
+449,450,
+463,464
+</data>
+  </layer>
+ </group>
+ <group id="9" name="FrontFace" visible="0">
+  <layer id="10" name="Base Skeleton" width="2" height="2">
+   <data encoding="csv">
+57,58,
+71,72
+</data>
+  </layer>
+  <layer id="11" name="Helmet" width="2" height="2">
+   <data encoding="csv">
+169,170,
+183,184
+</data>
+  </layer>
+  <layer id="12" name="Legs" width="2" height="2">
+   <data encoding="csv">
+281,282,
+295,296
+</data>
+  </layer>
+  <layer id="13" name="Arm Plates" width="2" height="2">
+   <data encoding="csv">
+393,394,
+407,408
+</data>
+  </layer>
+  <layer id="14" name="Torso Plates" width="2" height="2">
+   <data encoding="csv">
+505,506,
+519,520
+</data>
+  </layer>
+ </group>
+ <group id="15" name="SideFace">
+  <layer id="16" name="Base Skeleton" width="2" height="2">
+   <data encoding="csv">
+85,86,
+99,100
+</data>
+  </layer>
+  <layer id="17" name="Helmet" width="2" height="2">
+   <data encoding="csv">
+197,198,
+211,212
+</data>
+  </layer>
+  <layer id="18" name="Legs" width="2" height="2">
+   <data encoding="csv">
+309,310,
+323,324
+</data>
+  </layer>
+  <layer id="19" name="Arm Plates" width="2" height="2">
+   <data encoding="csv">
+421,422,
+435,436
+</data>
+  </layer>
+  <layer id="20" name="Torso Plates" width="2" height="2">
+   <data encoding="csv">
+533,534,
+547,548
+</data>
+  </layer>
+ </group>
+</map>

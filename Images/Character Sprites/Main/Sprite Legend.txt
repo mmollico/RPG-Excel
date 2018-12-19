@@ -1,0 +1,22 @@
+Tile 000 = Left Foot Downwards
+Tile 001 = Stand Stationary Downwards
+Tile 002 = Right Foot Downwards
+Tile 004 = Disregard
+Tile 005 = Side ways Right Step
+Tile 006 = Side ways Stationary
+Tile 007 = Side ways Left Step
+
+Tile 015 = Back side Right Foot
+Tile 016 = Back side Stationary
+Tile 017 = Back side Left Foot
+
+Animation:
+
+Downwards:
+Tile 0 to 2
+
+Sideways:
+Tile 5 to 7
+
+Back Side:
+Tile 15 and 17
